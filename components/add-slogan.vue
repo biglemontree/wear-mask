@@ -64,7 +64,7 @@
 				r: 40,
 				boarderWidth: 15,
 				wishText: '福',
-				avatarPath: '/static/image/mask/avatar_mask.png',
+				avatarPath: '/static/image/mask.jpg',
 				happinessPathList: ['/static/image/h0.png', '/static/image/h1.png', '/static/image/h2.png', '/static/image/h3.png',
 					'/static/image/h4.png'
 				],

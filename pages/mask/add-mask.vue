@@ -47,7 +47,7 @@
 				<button class="cu-btn block line-orange lg share-btn" open-type="share">
 					<text class="cuIcon-upload"></text> <text class="text-yellow">分享给好友</text> </button>
 			</view> -->
-			<ad unit-id="adunit-85230d6cd9a1beee"></ad>
+			<!-- <ad unit-id="adunit-85230d6cd9a1beee"></ad> -->
 
 		</view>
 

@@ -74,7 +74,6 @@
 			"style": {
 				"disableScroll": true,
 				"navigationBarTitleText": "头像加字"
-				// "navigationStyle": "custom"
 			}
 		}
 
@@ -119,29 +118,32 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
+				"color": "black",
 				"pagePath": "pages/index/index",
 				"iconPath": "static/image/tabbar/home-off.png",
 				"selectedIconPath": "static/image/tabbar/home-on.png",
 				"text": "首页"
 			},
 			{
+				"color": "black",
 				"pagePath": "pages/mask/add-mask",
 				"iconPath": "static/image/tabbar/mask-off.png",
 				"selectedIconPath": "static/image/tabbar/mask-on.png",
 				"text": "戴口罩"
 			},
 			{
+				"color": "black",
 				"pagePath": "pages/slogan/add-slogan",
 				"iconPath": "static/image/tabbar/fight-off.png",
 				"selectedIconPath": "static/image/tabbar/fight-on.png",
 				"text": "加口号"
-			},
-			{
-				"pagePath": "pages/about/about",
-				"iconPath": "static/image/tabbar/发现-off.png",
-				"selectedIconPath": "static/image/tabbar/发现-on.png",
-				"text": "更多好玩"
 			}
+			// {
+			// 	"pagePath": "pages/about/about",
+			// 	"iconPath": "static/image/tabbar/发现-off.png",
+			// 	"selectedIconPath": "static/image/tabbar/发现-on.png",
+			// 	"text": "更多好玩"
+			// }
 		]
 	}
 }

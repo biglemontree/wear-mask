@@ -2,7 +2,7 @@
 	<view class="container" :style="{height:windowHeight+'px'}">
 		<scroll-view scroll-y="true" :style="{height:windowHeight+'px'}">
 			<view class="width:720rpx; margin-left:auto; margin-right:auto">
-				<ad unit-id="adunit-8001ab822ee98db2"></ad>
+				<!-- <ad unit-id="adunit-8001ab822ee98db2"></ad> -->
 			</view>
 			<view class="grid">
 				<view class="grid" v-for="(item,index) in imageList" :key="index">

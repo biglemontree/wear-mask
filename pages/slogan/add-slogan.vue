@@ -42,7 +42,7 @@
 			</view>
 		</view>
 		<view class="grid justify-around share-wrapper">
-			<ad unit-id="adunit-9eaa632f3263c819"></ad>
+			<!-- <ad unit-id="adunit-9eaa632f3263c819"></ad> -->
 		</view>
 
 	</view>
@@ -126,7 +126,7 @@
 				],
 				// dropdownlistData: ['武汉加油', '中国加油', '加油2020', '不动如山', '拒绝聚会', '拒绝野味'],
 				dropdownShow: false,
-				avatarPath: '/static/image/mask/avatar_mask.png',
+				avatarPath: '/static/image/avatar_mask.jpeg',
 				happinessPathList: ['/static/image/h0.png', '/static/image/h1.png', '/static/image/h2.png', '/static/image/h3.png',
 					'/static/image/h4.png'
 				],

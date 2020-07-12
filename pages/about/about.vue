@@ -79,7 +79,7 @@
 		},
 		data() {
 			return {
-				copyright: " Copyright © 2016-2020 人文之窗公众号",
+				// copyright: " Copyright © 2016-2020 人文之窗公众号",
 				officialAccountUrl: "https://mina-img-store-1258554429.cos.ap-shanghai.myqcloud.com/new-year-wish/renwenzhichuang.png",
 				windowHeight: 0,
 				webviewStyles: {

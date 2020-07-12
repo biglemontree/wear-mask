@@ -9,7 +9,7 @@
 		</view> -->
 		<view class="menu-list" :style="{'margin-top': statusBarHeight+40+'px' }">
 			<view class="ad-container margin-top cu-list menu sm-border card-menu">
-				<ad unit-id="adunit-28338c7d91d145af"></ad>
+				<!-- <ad unit-id="adunit-28338c7d91d145af"></ad> -->
 				<!-- <ad unit-id="adunit-7301464a68a1e24e" ad-type="video" ad-theme="white"></ad> -->
 			</view>
 			<view class="cu-card article" @click="addMask" >
@@ -34,7 +34,7 @@
 					</view>
 				</view>
 			</view>
-			<view class="cu-card article" @click="nasa" >
+			<!-- <view class="cu-card article" @click="nasa" >
 				<view class="cu-item shadow" style="margin: 30rpx 30rpx 0rpx 30rpx; ">
 					<view class="title">
 						<view class="text-cut"> 生日那天的宇宙 </view>
@@ -47,22 +47,21 @@
 								<view class="grid justify-between">
 									<view>
 										<view class="cu-tag bg-red light sm round">全宇宙独一无二的生日礼物</view>
-										<!-- <view class="cu-tag bg-green light sm round">保健康</view> -->
+										<view class="cu-tag bg-green light sm round">保健康</view>
 									</view>
-									
 								</view>
 							</view>
 						</view>
 					</view>
 				</view>
-			</view>
+			</view> -->
 			<view class="cu-card article" @click="addSlogan">
 				<view class="cu-item shadow" style="margin: 30rpx 30rpx 0rpx 30rpx; ">
 					<view class="title">
 						<view class="text-cut"> 武汉加油 </view>
 					</view>
 					<view class="content">
-						<image style="width: 180rpx;"  src="/static/image/logo/slogan-logo.jpeg" mode="aspectFill"></image>
+						<image style="width: 180rpx;"  src="/static/image/mask.jpg" mode="aspectFill"></image>
 						<view class="desc">
 							<view class="text-content">  武汉加油，中国加油，加油2020，不动如山，拒绝聚会，拒绝野味。</view>
 							<view>
@@ -80,7 +79,7 @@
 			<view class="cu-card article" @click="addText">
 				<view class="cu-item shadow" style="margin: 30rpx 30rpx 0rpx 30rpx; ">
 					<view class="title">
-						<view class="text-cut">  头像加字 </view>
+						<view class="text-cut"> 头像加字 </view>
 					</view>
 					<view class="content">
 						<image style="width: 180rpx;"  src="/static/image/logo/text-logo.jpeg" mode="aspectFill"></image>
@@ -171,14 +170,14 @@
 		onLoad() {
 			// 在页面onLoad回调事件中创建插屏广告实例
 			if (wx.createInterstitialAd) {
-				interstitialAd = wx.createInterstitialAd({
-					adUnitId: 'adunit-be801ba020f6edeb'
-				})
-				interstitialAd.onLoad(() => {})
-				interstitialAd.onError((err) => {
-					console.log(err);
-				})
-				interstitialAd.onClose(() => {})
+				// interstitialAd = wx.createInterstitialAd({
+				// 	adUnitId: 'adunit-be801ba020f6edeb'
+				// })
+				// interstitialAd.onLoad(() => {})
+				// interstitialAd.onError((err) => {
+				// 	console.log(err);
+				// })
+				// interstitialAd.onClose(() => {})
 			}
 			
 		},
@@ -256,7 +255,7 @@
 				// 初始化并触发跳转，支持链式调用
 				this.wx = uni;
 				Tucao.init(this, {
-					productId: 120746
+					productId: 176576
 				}).go();
 			},
 			handleContact: function(e) {

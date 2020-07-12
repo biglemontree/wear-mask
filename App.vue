@@ -5,7 +5,7 @@
 	let IS_ANDROID = !sysInfo.model.includes('iPhone');
 	let statusBarHeight = sysInfo.statusBarHeight;
 	const STORAGE_KEY = 'PLUG-ADD-MYAPP-KEY';
-	const envId = 'ncov-production-wwomb';
+	const envId = 'wear-mask-3g1iu';
 	// const collectionName = 'mp_launch_config';
 	const collectionName = 'config_jill';
 	const docId = 'mp_launch_config_doc';
@@ -18,8 +18,8 @@
 			duration: 20,
 			cropImageFilePath: '',
 			rapaintAfterCrop: false,
-			PAGE_BG_COLOR: '#C12928',
-			enableSecurityCheck: true,
+			PAGE_BG_COLOR: '#108ee9',
+			enableSecurityCheck: false,
 			userAvatarUrl: null,
 			userAvatarFilePath: null,
 			maskAvatarSavedTempPath: null
@@ -40,10 +40,10 @@
 				traceUser: true
 			});
 			
-			db.collection(collectionName).doc(docId).get().then(res => {
-				getApp().globalData.enableSecurityCheck = res.data.enableSecurityCheck;
-				console.log("enableSecurityCheck", getApp().globalData.enableSecurityCheck);
-			})
+			// db.collection(collectionName).doc(docId).get().then(res => {
+			// 	getApp().globalData.enableSecurityCheck = res.data.enableSecurityCheck;
+			// 	console.log("enableSecurityCheck", getApp().globalData.enableSecurityCheck);
+			// })
 			
 			Vue.prototype.ColorList = [{
 						title: '嫣红',

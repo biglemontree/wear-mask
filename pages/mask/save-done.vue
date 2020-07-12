@@ -28,7 +28,7 @@
 			</view>
 		</view>
 		<view class="grid justify-around share-wrapper">
-			<ad unit-id="adunit-85230d6cd9a1beee"></ad>
+			<!-- <ad unit-id="adunit-85230d6cd9a1beee"></ad> -->
 		</view>
 
 
